@@ -1,0 +1,93 @@
+
+    .no_circle{list-style-type:none;  /*设置列表项标志的类型为无*/
+   display:none;
+	}
+    
+	.body1 {
+	
+	background: #E6EAE9;
+}
+		.STYLE1 {
+			color: yellow;
+			font-size: 5px;
+		}
+		
+
+div {
+	padding:0px;
+	margin:0px;
+}
+
+h1.feng{
+	
+	 text-align:center;
+	 margin-top: 10px; 
+	 font-family: 隶书; 
+	 font-size:35px; 
+	 color: #4f6b72;
+}
+body {
+
+ padding:0px;
+ margin:auto;
+ 
+
+}
+.cheng{
+	background-color:#9ad075;
+}
+
+.fff{
+	background-color:#9ad075;
+}
+dl.bitem {
+	width:153px;
+	margin:10px 3px 10px 4px;
+}
+
+dl.bitem dt {
+  background:url(../images/menubg.gif);
+  height:26px;
+  line-height:26px;
+  text-align:center;
+  cursor:pointer;
+}
+
+dl.bitem dd {
+text-align:center;
+  background-color:#fff;
+}
+
+.fllct
+{
+	float:left;
+	
+	width:90px;
+}
+
+.flrct
+{
+	padding-top:3px;
+	float:left;
+}
+
+
+span.items
+{
+	padding:10px 0px 10px 22px;
+	background:url(../images/arr4.gif) no-repeat 10px 12px;
+}
+
+ul {
+  padding-top:3px;
+}
+
+li {
+  height:22px;
+}
+
+.sitemu li {
+	padding:0px 0px 0px 10px;
+	line-height:24px;
+	
+}

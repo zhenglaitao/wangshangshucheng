@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.il8n.encoding" value="gb2312" />
+	<package name="default1" extends="struts-default">
+		<action name="gouwuche_lianxiren" class="sevrlet.gouwuche_lianxiren">
+			<result name="chenggong">/order_ok.jsp</result>
+		</action>
+	</package>
+
+	<package name="gouwucheSanc" extends="struts-default">
+		<action name="gouwucheSanchu" class="sevrlet.gouwucheSanchu">
+			<result name="success">/basket.jsp</result>
+			<result name="fail">/basket.jsp</result>
+		</action>
+	</package>
+	<!-- 交易完成 清空购物车 -->
+	<package name="gouwucheQU" extends="struts-default">
+		<action name="gouwucheShanchuQU" class="sevrlet.gouwucheShanchuQU">
+			<result name="success">/basket2.jsp</result>
+			<result name="fail">/basket2.jsp</result>
+		</action>
+	</package>
+
+	<package name="QingKong" extends="struts-default">
+		<action name="QingKong" class="sevrlet.gouwucheShanchuQU">
+			<result name="success">/basket.jsp</result>
+			<result name="fail">/basket.jsp</result>
+		</action>
+	</package>
+
+	
+</struts>    
