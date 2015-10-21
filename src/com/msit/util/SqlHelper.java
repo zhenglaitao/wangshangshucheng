@@ -16,7 +16,7 @@ public class SqlHelper {
 
 	// 连接需要的数据 (这些数据直接写到加密后的数据文件中)
 	private static String driverName = "com.mysql.jdbc.Driver";
-	private static String url = "jdbc:mysql://127.0.0.1:3306/book";
+	private static String url = "jdbc:mysql://127.0.0.1:3306/wangshangchucheng";
 	private static String user = "root";
 	private static String password = "root";
 
